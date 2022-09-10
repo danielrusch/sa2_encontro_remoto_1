@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Titillium+Web:wght@400;700&display=swap");
+
+/* RESET CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #1e1c21;
+  height: 80px;
+}
+
+.container-grid {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.menu a {
+  color: rgb(252, 252, 252);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.banner {
+  height: 350px;
+  background-image: url(../img/banner.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-color: #1e1c21;
+  background-size: cover;
+}
+
+.conteudo-banner {
+  height: 250px;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.posicionamento-banner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 95%;
+}
+
+.conteudo-banner h1 {
+  color: rgb(36, 30, 30);
+  font-family: "Titillium Web", sans-serif;
+  font-size: 90px;
+}
+
+.conteudo-banner p {
+  color: rgb(9, 21, 87);
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+}
+
+.conteudo-banner a {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #3070a5;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.conteudo-banner-titulos {
+  height: 180px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-grid a img {
+  max-width: 370px;
+  max-height: 320px;
+  width: auto;
+  height: auto;
+}
+
+.imagem-cabecalho a img {
+  max-width: 370px;
+  max-height: 320px;
+  width: auto;
+  height: auto;
+}
+
+.container .row .col-3 img {
+  max-width: 200px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  align-items: center;
+}
+
+.container .row .col-3 h3 {
+  font-size: 15pt;
+  text-align: center;
+  color: honeydew;
+}
+
+.container .row .col-3 h2 {
+  font-size: 20pt;
+  text-align: center;
+  color: honeydew;
+  font-weight: bold;
+}
+
+.container .row .col-3 p {
+  font-size: 10pt;
+  text-align: center;
+  color: honeydew;
+}
+
+.ofertas {
+  background-color: #1e1c21;
+  height: 110%;
+}
+
+.container .row .col-3 a {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-decoration: solid;
+  background-color: #3070a5;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.ofertas h2 {
+  color: honeydew;
+}
+
+.container .row .col-3 {
+  height: 350px;
+  width: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.somos-nos img {
+  height: 180px;
+}
+
+.somos-nos .container .row .col-3 {
+  height: 200px;
+  width: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.container .row .col-9 {
+  height: 200px;
+  width: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.somos-nos {
+  background-color: #1e1c21;
+}
+
+.somos-nos h2 {
+  color: white;
+}
+
+footer {
+  background-color: #1e1c21;
+  color: white;
+}
+
+footer .imagem-footer img {
+  height: 60px;
+}
+
+footer .col-xl-6 h2 {
+    font-size: 16pt;
+}
+
+footer li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: table;
+}
